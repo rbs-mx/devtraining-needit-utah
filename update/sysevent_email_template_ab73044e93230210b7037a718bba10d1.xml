@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>incident</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>Description: ${description}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>mailto.incommingincident</name>
+        <sms_alternate/>
+        <subject>${short_description}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-23 09:48:31</sys_created_on>
+        <sys_id>ab73044e93230210b7037a718bba10d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mailto.incommingincident</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_email_template_ab73044e93230210b7037a718bba10d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-23 09:48:31</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>
