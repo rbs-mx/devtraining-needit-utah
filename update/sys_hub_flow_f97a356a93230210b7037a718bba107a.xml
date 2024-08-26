@@ -14,7 +14,7 @@
 
 you might need to disable the already existing flow designers or workflows on the change request</description>
         <internal_name>rbs__task_4</internal_name>
-        <label_cache>[{"name":"89200f07-dd76-438b-94be-ac5ebefcc1eb.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.205f1e0753333300c722ddeeff7b1235}}","label":"Mobile Analytics Settings Managers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.a8f98bb0eb32010045e1a5115206fe3a}}","label":"Abraham Lincoln","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Change Request Record","reference":"change_request","reference_display":"Change Request","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.assignment_group.manager","label":"Trigger - Record Created or Updated➛Change Request Record➛Assignment group➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager"},{"name":"Created_1.current","label":"Trigger - Record Created➛Change Request Record","reference":"change_request","reference_display":"Change Request","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Change Request Record➛Opened by➛Manager","reference":"sys_user","reference_display":"Manager","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Change Request Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current","label":"Trigger - Record Created➛Change Request Record","reference":"change_request","reference_display":"Change Request","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.assignment_group.manager","label":"Trigger - Record Created or Updated➛Change Request Record➛Assignment group➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Change Request Record","reference":"change_request","reference_display":"Change Request","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.a8f98bb0eb32010045e1a5115206fe3a}}","label":"Abraham Lincoln","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.205f1e0753333300c722ddeeff7b1235}}","label":"Mobile Analytics Settings Managers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"89200f07-dd76-438b-94be-ac5ebefcc1eb.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>RBS - Task 4</name>
@@ -34,7 +34,7 @@ you might need to disable the already existing flow designers or workflows on th
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f97a356a93230210b7037a718bba107a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>RBS - Task 4</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -42,7 +42,7 @@ you might need to disable the already existing flow designers or workflows on th
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_hub_flow_f97a356a93230210b7037a718bba107a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 12:11:43</sys_updated_on>
+        <sys_updated_on>2024-08-05 11:56:34</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f97a356a93230210b7037a718bba107a"/>
@@ -57,10 +57,10 @@ you might need to disable the already existing flow designers or workflows on th
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-26 12:11:43</sys_created_on>
         <sys_id>a525884393630210b7037a718bba100a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 12:11:43</sys_updated_on>
+        <sys_updated_on>2024-08-05 11:56:34</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -297,10 +297,10 @@ you might need to disable the already existing flow designers or workflows on th
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-25 10:42:38</sys_created_on>
         <sys_id>0327aeaa93e30210b7037a718bba10de</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 12:11:43</sys_updated_on>
+        <sys_updated_on>2024-08-05 11:56:34</sys_updated_on>
         <ui_id>89200f07-dd76-438b-94be-ac5ebefcc1eb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0327aeaa93e30210b7037a718bba10de"/>
@@ -451,10 +451,10 @@ you might need to disable the already existing flow designers or workflows on th
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-25 11:22:03</sys_created_on>
         <sys_id>6430b26693270210b7037a718bba10f5</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 12:11:43</sys_updated_on>
+        <sys_updated_on>2024-08-05 11:56:34</sys_updated_on>
         <ui_id>08a4b04e-013c-487a-b4f5-aabd1c50fa4d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6430b26693270210b7037a718bba10f5"/>
@@ -527,6 +527,7 @@ you might need to disable the already existing flow designers or workflows on th
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6430b26693270210b7037a718bba10f5"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes/>
@@ -540,10 +541,10 @@ you might need to disable the already existing flow designers or workflows on th
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-25 11:22:03</sys_created_on>
         <sys_id>6830b26693270210b7037a718bba10fe</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 12:11:43</sys_updated_on>
+        <sys_updated_on>2024-08-05 11:56:34</sys_updated_on>
         <ui_id>e647694a-7fba-4325-b477-9fdefdd52d75</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6830b26693270210b7037a718bba10fe"/>
@@ -555,10 +556,10 @@ you might need to disable the already existing flow designers or workflows on th
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-25 11:22:03</sys_created_on>
         <sys_id>6430f26693270210b7037a718bba1000</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 12:11:43</sys_updated_on>
-        <value/>
+        <sys_updated_on>2024-08-05 11:56:34</sys_updated_on>
+        <value>change_request</value>
         <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -569,13 +570,49 @@ you might need to disable the already existing flow designers or workflows on th
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-25 11:22:03</sys_created_on>
         <sys_id>a030f26693270210b7037a718bba1000</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 12:11:43</sys_updated_on>
-        <value/>
+        <sys_updated_on>2024-08-05 11:56:34</sys_updated_on>
+        <value>approval=rejected</value>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1^id=6830b26693270210b7037a718bba10fe"/>
+    <sys_element_mapping action="delete_multiple" query="id=6830b26693270210b7037a718bba10fe"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6830b26693270210b7037a718bba10fe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 11:22:03</sys_created_on>
+        <sys_id>2030f26693270210b7037a718bba1000</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 11:56:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6830b26693270210b7037a718bba10fe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 11:22:03</sys_created_on>
+        <sys_id>a830b26693270210b7037a718bba10ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 11:22:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6830b26693270210b7037a718bba10fe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 11:22:03</sys_created_on>
+        <sys_id>6c30b26693270210b7037a718bba10ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 11:22:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6830b26693270210b7037a718bba10fe"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6830b26693270210b7037a718bba10fe"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -594,10 +631,10 @@ you might need to disable the already existing flow designers or workflows on th
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-26 12:11:43</sys_created_on>
         <sys_id>6925884393630210b7037a718bba1011</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 12:11:43</sys_updated_on>
+        <sys_updated_on>2024-08-05 11:56:34</sys_updated_on>
         <ui_id>edd5ba70-304b-46b1-981a-d0906f740b58</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6925884393630210b7037a718bba1011"/>
@@ -693,10 +730,10 @@ you might need to disable the already existing flow designers or workflows on th
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-25 11:22:03</sys_created_on>
         <sys_id>5830b26693270210b7037a718bba10ec</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 12:11:43</sys_updated_on>
+        <sys_updated_on>2024-08-05 11:56:34</sys_updated_on>
         <ui_id>1a6951cf-4f81-403d-a5d9-006e1ba4fb80</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -765,10 +802,10 @@ you might need to disable the already existing flow designers or workflows on th
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-25 11:22:03</sys_created_on>
         <sys_id>e430b26693270210b7037a718bba10f8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 12:11:43</sys_updated_on>
+        <sys_updated_on>2024-08-05 11:56:34</sys_updated_on>
         <ui_id>b691fa98-d295-4f1c-bb54-907e67dcb2a2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

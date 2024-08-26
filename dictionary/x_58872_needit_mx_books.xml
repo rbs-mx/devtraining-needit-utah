@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="8c4483ea93670210b7037a718bba1015" label="Mx Books" max_length="40" name="x_58872_needit_mx_books" type="collection">
+        <element label="Author" max_length="40" name="author" type="string"/>
         <element label="Checked Out" max_length="40" name="checked_out" type="boolean"/>
         <element label="Checked Out User" max_length="32" name="checked_out_user" reference="sys_user" type="reference"/>
+        <element label="Edition" max_length="40" name="edition" type="string"/>
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element label="Name" max_length="40" name="name" type="string"/>
         <index name="index">
